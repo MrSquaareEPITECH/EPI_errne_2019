@@ -1,13 +1,13 @@
 ##
 ## EPITECH PROJECT, 2020
-## EPI_error_2019
+## EPI_errne_2019
 ## File description:
 ## Makefile
 ##
 
 NAME				=		a.out
-LIB_NAME			=		liberror.so
-LIB_ST_NAME			=		liberror.a
+LIB_NAME			=		liberrne.so
+LIB_ST_NAME			=		liberrne.a
 FUNC_TEST_NAME		=		tests/functional_tests.sh
 UNIT_TEST_NAME		=		tests/unit_tests
 
@@ -23,7 +23,9 @@ RM					=		rm -rf
 
 MAIN_SRC			=		main.c
 
-PROJ_SRC			=
+PROJ_SRC			=		internal.c			\
+							io.c				\
+							string.c			\
 
 TEST_SRC			=
 

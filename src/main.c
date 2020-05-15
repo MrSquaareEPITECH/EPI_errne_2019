@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2020
-** EPI_error_2019
+** EPI_errne_2019
 ** File description:
 ** main.c
 */

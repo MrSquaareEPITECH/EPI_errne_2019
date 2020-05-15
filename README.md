@@ -1,2 +1,2 @@
-# EPI_error_2019
+# EPI_errne_2019
 Small error library for Epitech projects
