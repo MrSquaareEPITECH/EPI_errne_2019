@@ -7,11 +7,11 @@
 
 #include "internal.h"
 
-int *errneval()
+int *errneval(void)
 {
     static __thread int val = 0;
 
-    return &val;
+    return (&val);
 }
 
 int errnemaxval(int val)
@@ -20,7 +20,7 @@ int errnemaxval(int val)
 
     if (val > maxval)
         maxval = val;
-    return maxval;
+    return (maxval);
 }
 
 const char *errnemsgval(int val, const char *msg)
@@ -37,6 +37,7 @@ const char *errnemsgval(int val, const char *msg)
             return (0);
         map[total].val = val;
         map[total++].msg = msg;
+        idx = msg;
     }
     return (idx);
 }

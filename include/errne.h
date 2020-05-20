@@ -8,7 +8,7 @@
 #ifndef EPI_ERRNE_2019_SRC_ERRNE_H
 #define EPI_ERRNE_2019_SRC_ERRNE_H
 
-int *errneval();
+int *errneval(void);
 int errnemaxval(int val);
 
 #define errne (*errneval())

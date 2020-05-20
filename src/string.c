@@ -10,7 +10,7 @@
 
 const char *strerrne(void)
 {
-    return errnemsgval(errne, 0);
+    return (errnemsgval(errne, 0));
 }
 
 int seterrne(int status, const char *msg)
