@@ -27,7 +27,9 @@ PROJ_SRC			=		internal.c			\
 							io.c				\
 							string.c			\
 
-TEST_SRC			=
+TEST_SRC			=		test_internal.c		\
+							test_io.c			\
+							test_string.c		\
 
 CFLAGS				+=		-I $(INCL_DIR)
 CFLAGS				+=		-W -Wall -Wextra -Werror
